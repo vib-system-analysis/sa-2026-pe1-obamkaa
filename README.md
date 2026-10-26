@@ -57,5 +57,8 @@
 - [Use-case диаграмма PlantUML](docs/use-cases/use-cases.puml)
 - [Roadmap, scope и не-скоуп MVP](docs/roadmap.md)
 - [ADR архитектурных решений](docs/adr/)
+- [Две декомпозиции системы и сравнение оснований](docs/system-decomposition.md)
+- [Дерево целей с листовыми метриками](docs/goal-tree.md)
+- [Аудит доказательной базы и проседающая ветка](docs/evidence-audit.md)
 
 Use cases пока не разыграны человеком вне команды; критерии такого прогона записаны в каждом сценарии.
