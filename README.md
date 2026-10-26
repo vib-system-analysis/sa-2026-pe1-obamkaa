@@ -50,3 +50,15 @@
 - [Краткий бриф проекта](docs/brief.md)
 
 Три наблюдения публичного walkthrough Disputa зафиксированы в [контекстной записке](docs/system-context.md); это наблюдения интерфейса без авторизации, не интервью со студентами.
+
+## Артефакты лабораторной 2
+
+- [Use cases и тест проживаемости](docs/use-cases/README.md)
+- [Use-case диаграмма PlantUML](docs/use-cases/use-cases.puml)
+- [Roadmap, scope и не-скоуп MVP](docs/roadmap.md)
+- [ADR архитектурных решений](docs/adr/)
+- [Две декомпозиции системы и сравнение оснований](docs/system-decomposition.md)
+- [Дерево целей с листовыми метриками](docs/goal-tree.md)
+- [Аудит доказательной базы и проседающая ветка](docs/evidence-audit.md)
+
+Use cases пока не разыграны человеком вне команды; критерии такого прогона записаны в каждом сценарии.
