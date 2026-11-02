@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Студент" as Student
+actor "Студент-рецензент" as Reviewer
+
+rectangle "Система карточек повторения" {
+  usecase "UC-01\nСоздать проверяемую\nколоду" as UC01
+  usecase "UC-02\nПройти сессию\nповторения" as UC02
+  usecase "UC-03\nОтклонить недостоверную\nкарточку" as UC03
+  usecase "Проверить карточку\nпо источнику" as SourceCheck
+  usecase "Сохранить результат\nсессии" as SaveSession
+}
+
+Student --> UC01
+Student --> UC02
+Reviewer --> UC03
+UC01 .> SourceCheck : <<include>>
+UC02 .> SaveSession : <<include>>
+UC03 .> SourceCheck : <<include>>
+@enduml
